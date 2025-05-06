@@ -1,8 +1,9 @@
 package eventprocess
 
 import (
-	"biathlon_events_parser/internal/models"
 	"fmt"
+	
+	"biathlon_events_parser/internal/models"
 )
 
 func ProcessEvents(events []*models.Event, cfg *models.Config) map[int]*models.Competitor {

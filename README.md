@@ -1,10 +1,10 @@
 # Yadro_test_task
 
-### Настройка и запуск проекта
+### Setting up and launching a project
 
-1. Создайте файл `.env` по примеру `.env.example`. 
+1. Create a `.env` file following the example of `.env.example`. 
 
-2. Запустите проект с использованием команды:
+2. Run the project using the command:
    ```sh
    go run cmd/biathlon/main.go 
    ```
